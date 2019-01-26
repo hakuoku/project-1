@@ -17,7 +17,7 @@
           <nuxt-link to="/">Top</nuxt-link>
           <nuxt-link to="/about">About</nuxt-link>
           <span class="disabled">Recruit</span>
-          <span class="disabled">Contact</span>
+          <nuxt-link to ="/contact">Contact</nuxt-link>
         </nav>
         <div
           :class="{ opened: isOpen }"
